@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width:992px){
+
+
+    /*head*/
+    .text-box h1 {
+        font-size: 42px;
+        color: goldenrod;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .logo {
+        flex-basis: 30%;
+        width: 100%;
+    }
+    .menu {
+        flex-basis: 70%;
+        width: 100%;
+    }
+
+
+
+    /*course*/
+
+    .course {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .row {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .course-col h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .course-col p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+
+    /*campus*/
+
+    .campus h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .campus P {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30PX;
+        font-weight: 500;
+    }
+    
+    .layer {
+        background: transparent;
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: .8s;
+    }
+    .campus-col img {
+        height: 300px;
+        border-radius: 20px;
+        display: block;
+    }
+
+
+
+    /*facilities*/
+
+    .facilities {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        display: block;
+        position: relative;
+        margin-top: 50px;
+    }
+    .facilities h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .facilities-col {
+        flex-basis: 31%;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .facilities-col h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .facilities-col p {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+
+    /*tastimonial*/
+
+    .testimonial {
+        width: 80%;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .testimonial h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .testimonial p {
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .testimonial-col p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-left: 5px;
+    }
+    .testimonial-col h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+    /*call section*/
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        position: relative;
+        bottom: 50px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 50px 0;
+        margin-top: 100px;
+    }
+    .cta h1 {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 40px;
+        padding: ;
+    }
+
+    /*footer*/
+
+    .footer {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .footer h4 {
+        font-size: 20px;
+    }
+    .footer p {
+        margin-top: 13px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    
+    .logo {
+        flex-basis: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .menu {
+        flex-basis: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .header {
+        box-shadow: 2px 2px 4px rgba(0,0,0,.9);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 100%;
+        flex-direction: column;
+        background-color: rgba(0,0,0,.4);
+    }
+
+    .text-box {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        text-align: center;
+    }
+    .text-box h1 {
+        font-size: 32px;
+        color: goldenrod;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text-box p {
+        width: 70%;
+        margin-top: 20px;
+        font-size: 13px;
+        color: black;
+        font-weight: 600;
+        line-height: 30px;
+        margin: auto;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 15px;
+    }
+    .hero-btn {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        font-size: 13px;
+        padding: 5px 15px;
+        position: relative;
+        display: inline-block;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    .text-box a {
+        margin-top: 25px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+
+    /*next*/
+
+    .course h1 {
+        font-size: 32px;
+        font-weight: 900;
+        word-spacing: 6px;
+    }
+    .course p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 15px;
+        color: rgb(14, 141, 14);
+    }
+    .row {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .course-col {
+        margin-top: 5px;
+        flex-basis: 100%;
+        background-color: rgba(248, 135, 135,.2);
+        border: 1px solid black;
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding: 20px 10px;
+        transition: .5s;
+        margin: 20px 80px;
+    }
+
+
+    /*next*/
+
+    .campus h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .campus P {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30PX;
+        font-weight: 500;
+    }
+
+
+    /*next*/
+
+    .facilities h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 12px;
+    }
+    .row {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .facilities-col {
+        flex-basis: 100%;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .facilities-col img {
+        border-radius: 15px;
+        height: 250px;
+        width: 400px;
+        display: block;
+        margin: auto;
+    }
+    .facilities-col h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+    }
+    .facilities-col p {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    /*next*/
+
+    .testimonial h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .testimonial p {
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .testimonial-col {
+        flex-basis: 100%;
+        border-radius: 10px;
+        text-align: left;
+        background-color: rgba(241, 94, 68,.2);
+        box-sizing: border-box;
+        padding: 25px;
+        border: 1px solid black;
+        cursor: pointer;
+        display: flex;
+        margin: 20px 50px;
+    }
+
+
+    /*next*/
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 50px 0;
+        margin-top: 60px;
+    }
+    .cta {
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 50px 0;
+        margin-top: 60px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width:576px){
+
+    .menu ul li a {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .logo img {
+        height: 50px;
+        width: 150px;
+        margin: 0 10px;
+    }
+
+    .text-box {
+        width: 100%;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        text-align: center;
+    }
+    
+
+    #bg {
+        position: relative;
+        height: 420px;
+        width: 100%;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        padding: 0 10px;
+        margin-top: 5px;
+    }
+
+
+    /*next*/
+
+    .course-col {
+        margin-top: 5px;
+        flex-basis: 100%;
+        background-color: rgba(248, 135, 135,.2);
+        border: 1px solid black;
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding: 10px 10px;
+        transition: .5s;
+        margin: 20px 80px;
+    }
+    .course-col p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+
+
+    /*next*/
+
+    .campus-pic {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .campus-col img {
+        height: 300px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+    }
+
+    /*next*/
+
+    .facilities-col img {
+        border-radius: 15px;
+        height: 180px;
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+
+    /*next*/
+
+    .testimonial h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .testimonial p {
+        margin-top: 0px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .testimonial-col h3 {
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .test-text {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .testimonial-col {
+        flex-basis: 100%;
+        border-radius: 10px;
+        text-align: left;
+        background-color: rgba(241, 94, 68,.2);
+        box-sizing: border-box;
+        padding: 5px;
+        border: 1px solid black;
+        cursor: pointer;
+        display: flex;
+        margin: 20px 0px;
+    }
+
+
+    .cta h1 {
+        font-size: 15px;
+        color: white;
+        margin-bottom: 40px;
+        padding: ;
+    }
+
+
+
+
+
+
+    .text-box h1 {
+        font-size: 20px;
+        color: goldenrod;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text-box p {
+        width: 70%;
+        margin-top: 20px;
+        font-size: 11px;
+        color: tomato;
+        font-weight: 600;
+        line-height: 15px;
+        margin: auto;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 15px;
+    }
+}
